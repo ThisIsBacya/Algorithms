@@ -7,6 +7,7 @@ struct Array
 // create array
 Array *array_create(size_t size)
 {
+    int *arr = new int[size];
     return new Array;
 }
 
